@@ -3,6 +3,7 @@
 unexport CFLAGS
 
 export FORCE_LIBC_MALLOC = yes
+export MALLOC=libc
 
 %:
 	dh $@
